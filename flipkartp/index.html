@@ -8,7 +8,6 @@
     <title>Flipkart</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -19,6 +18,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
 
     <link rel="shortcut icon" href="images/fevicon.ico">
 
@@ -34,8 +36,8 @@
                 <a href="#" class="flipkart-logo"><img src="images/flipkart_logo.png" alt="Flipkart"
                         title="Flipkart"></a>
 
-                <a href="#" class="explore">Explore <span class="plus">Plus</span><img width="10"
-                        src="images/plus_logo.png"></a>
+                <a href="#" class="explore">Explore <span class="plus">Plus<img width="10"
+                            src="images/plus_logo.png"></span></a>
 
             </div>
 
@@ -152,7 +154,7 @@
         </div>
 
 
-
+        <!-- Categories -->
         <div class="category">
             <div class="category-item">
                 <a href="#"><img src="images/offer.webp">Top offers</a>
@@ -180,7 +182,7 @@
             </div>
         </div>
 
-    <!-- main body section -->
+        <!-- main body section -->
         <div class="main-section">
 
             <!-- carousel -->
@@ -214,50 +216,129 @@
             <div class="container1">
                 <div class="deals">
                     <div class="header1">
-                        Deals of the day
+                        <div>Deals of the day</div>
+                        <a class="viewbtn" href="#">View All</a>
                     </div>
                     <div class="content1">
-                        <div class="contentcard">
-                            <img src="images/cameras.webp">
-                            <div class="title1">Cameras</div>
-                            <div class="price">From 15000</div>
-                            <div class="brand">Canon, Nikon</div>
-                        </div>
-                        <div class="contentcard">
+                        <a class="contentcard" href="#">
+                            <img src="images/sunglass.webp">
+                            <div class="title1">Sun glasses</div>
+                            <div class="price">From &#8377;1500</div>
+                            <div class="brand">Oakley</div>
+                        </a>
+                        <a class="contentcard" href="#">
+                            <img src="images/shoes.webp">
+                            <div class="title1">Sneakers</div>
+                            <div class="price">From &#8377;1299</div>
+                            <div class="brand">Vector X, Nivia</div>
+                        </a>
+                        <a class="contentcard" href="#">
                             <img src="images/flasks.webp">
                             <div class="title1">Flasks</div>
-                            <div class="price">From 900</div>
+                            <div class="price">From &#8377;900</div>
                             <div class="brand">Borosil, Milton</div>
-                        </div>
-                        
-                        <div class="contentcard">
-                            <img src="images/gaming_mouse.webp">
-                            <div class="title1">Gaming Mouse</div>
-                            <div class="price">From 1000</div>
-                            <div class="brand">logitech</div>
-                        </div>
-                        <div class="contentcard">
-                            <img src="images/earbuds.webp">
-                            <div class="title1">Earbuds</div>
-                            <div class="price">From 1299</div>
-                            <div class="brand">Boat, JBL</div>
-                        </div>
-                        <div class="contentcard">
-                            <img src="images/cameras.webp">
-                            <div class="title1">Cameras</div>
-                            <div class="price">From 500</div>
-                            <div class="brand">Canon, instaX</div>
-                        </div>
-                        
+                        </a>
+                        <a class="contentcard" href="#">
+                            <img src="images/Tshirts.webp">
+                            <div class="title1">Tshirts</div>
+                            <div class="price">From &#8377;3000</div>
+                            <div class="brand">Allen Solly, Zara</div>
+                        </a>
+                        <a class="contentcard" href="#">
+                            <img src="images/watches.webp">
+                            <div class="title1">Wrist watches</div>
+                            <div class="price">From &#8377;1500</div>
+                            <div class="brand">Casio, Fossil</div>
+                        </a>
+                        <a class="contentcard" href="#">
+                            <img src="images/powerbanks.webp">
+                            <div class="title1">Powerbanks</div>
+                            <div class="price">From &#8377;1000</div>
+                            <div class="brand">Ambrane, URBN</div>
+                        </a>
                     </div>
                 </div>
                 <div class="ad">
                     <img src="images/ad.webp">
                 </div>
             </div>
+
+            <br><br>
+            <!-- Electronics -->
+            <div class="container1">
+                <div class="deals-elec">
+                    <div class="header1">
+                        Electronics Deals
+                        <a class="viewbtn" href="#">View All</a>
+                    </div>
+                    <div class="content1">
+                        <a class="contentcard" href="#">
+                            <img src="images/curved_monitors.webp">
+                            <div class="title1">Curved Monitors</div>
+                            <div class="price">From &#8377;30000</div>
+                            <div class="brand">MSI, Samsung</div>
+                        </a>
+                        <a class="contentcard" href="#">
+                            <img src="images/cameras.webp">
+                            <div class="title1">Cameras</div>
+                            <div class="price">From &#8377;15000</div>
+                            <div class="brand">Canon, Nikon</div>
+                        </a>
+                        <a class="contentcard" href="#">
+                            <img src="images/tablets.webp">
+                            <div class="title1">Tablets</div>
+                            <div class="price">From &#8377;10000</div>
+                            <div class="brand">Redmi, Lenovo</div>
+                        </a>
+                        <a class="contentcard" href="#">
+                            <img src="images/earbuds.webp">
+                            <div class="title1">Earbuds</div>
+                            <div class="price">From &#8377;1299</div>
+                            <div class="brand">Boat, JBL</div>
+                        </a>
+                        <a class="contentcard" href="#">
+                            <img src="images/printers.webp">
+                            <div class="title1">Printers</div>
+                            <div class="price">From &#8377;20000</div>
+                            <div class="brand">Canon, Epson</div>
+                        </a>
+                        <a class="contentcard" href="#">
+                            <img src="images/gaming_mouse.webp">
+                            <div class="title1">Gaming Mouse</div>
+                            <div class="price">From &#8377;1000</div>
+                            <div class="brand">Logitech</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <div class="advertise">
+                <img src="images/ad1.webp" alt="" class="advertise-img">
+                <img src="images/ad2.webp" alt="" class="advertise-img">
+                <img src="images/ad3.webp" alt="" class="advertise-img">
+            </div>
+            <div class="advertise">
+                <img src="images/ad4.webp" alt="" class="advertise-img">
+                <img src="images/ad5.webp" alt="" class="advertise-img">
+                <img src="images/ad6.webp" alt="" class="advertise-img">
+            </div>
         </div>
 
-        <div class="footer"></div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="icns">
+                <i class="fa fa-instagram icn"></i>
+                <i class="fa fa-twitter icn"></i>
+                <i class="fa fa-facebook icn"></i>
+                <i class="fa fa-linkedin icn"></i>
+                <i class="fa fa-github icn"></i>
+            </div>
+            <div class="copyright">
+                © 2022 Copyright: <a href="#">flipkart.com</a>
+            </div>
+        </div>
     </div>
 </body>
 
